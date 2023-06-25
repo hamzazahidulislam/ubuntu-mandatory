@@ -164,3 +164,43 @@
 ## clean you junk file
 
      sudo apt install bleachbit
+
+### get list of drive
+
+     df
+
+### linux disk fragment ext4
+
+`sudo e4defrag -c /`
+
+`man e4defrag `
+
+`df`
+
+`which df`
+
+`df -hT`
+
+`df -Th | sort`
+
+`sudo e4defrag -c /dev/sda3`
+
+`sudo e4defrag -c /`
+
+`sudo e4defrag /`
+
+`pkm-own e4defrag`
+
+`pkm-search e2fsprogs`
+
+### clean up script
+
+[clean up script](https://github.com/hamzazahidulislam/Ubuntu-Cleanup-Script/blob/master/clean.sh)
+
+# Change grub time to 3 to 4 second or 0
+
+`sudo nano /etc/default/grub
+`
+
+`sudo update-grub
+`
