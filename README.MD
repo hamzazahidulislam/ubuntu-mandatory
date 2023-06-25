@@ -130,4 +130,37 @@
 
 ### Speed up app launch time Preload
 
-     sduo apt install preload
+     sudo apt install preload
+
+# Live Patch
+
+     uname -ar
+     uname -a
+
+- You have to create Ubuntu account use this future
+- Free to use up to 30 machines
+- Go to software update and active live patch
+- Token you get from UBuntu website
+
+### If you want you use keboard shortcuts please. Go setting inside keyboard shortcuts and set as you need
+
+## If you need system backup
+
+- then use timeshift tool
+
+## Use Windows app
+
+- Then use the Bottles tool
+- Or you can use wine for small app like lighshot tools
+
+## If you use Ubuntu then you lapto bettery very fast decrease the charge then you should try this app instad
+
+` sudo apt install tlp tlp-rdw`
+
+`sudo systemctl enable tlp`
+
+` sudo systemctl start tlp`
+
+## clean you junk file
+
+     sudo apt install bleachbit
