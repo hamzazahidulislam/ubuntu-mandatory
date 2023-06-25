@@ -97,3 +97,37 @@
 ### unzip file
 
      unzip /path/to/file.zip -d temp_for_zip_extract
+
+## Enable minimise on click
+
+     gsettings set org.gnome.shell.extensions.dash-to-dock click-action "minimize"
+
+## Enable Firewall
+
+     sudo systemctl status ufw
+
+     sudo systemctl enable ufw
+
+     sudo ufw enable
+
+     sudo ufw disable
+
+     sudo ufw status
+
+     sudo ufw allow 22/tcp
+
+     sudo ufw deny 22/tcp
+
+## Use FlatPak Instead of Snap
+
+     sudo apt install flatpak
+
+### flatpak.org search in brower
+
+- Please make sure first add flat repository
+- Also add flatpak plugin
+- after restart pc
+
+### Speed up app launch time Preload
+
+     sduo apt install preload
