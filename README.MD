@@ -16,6 +16,8 @@
 
 ### ls document\_\* , ls \*.txt
 
+     ls file.?.csv
+
 ### Important tool for networking
 
      sudo apt install net-tools
@@ -51,3 +53,27 @@
      nano ~/.ssh/config
 
 ### Writing the following value
+
+     Host *
+     AddKeysToAgent yes
+     IdentityFile ~/.ssh/id_ed25519
+
+### Add into SHH
+
+     ssh-add ~/.ssh/id_ed25519
+
+### Copy the public key
+
+     cat ~/.ssh/id_ed25519.pub
+
+### check your SSH connection
+
+     ssh -T git@github.com
+
+     ssh -T git@gitlab.com
+
+     ssh -T git@bitbucket.org
+
+# Install multi-media code & VLC Player
+
+     sudo apt install ubuntu-restricted-extras && sudo apt install vlc
