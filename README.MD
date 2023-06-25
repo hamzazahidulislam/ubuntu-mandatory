@@ -30,6 +30,8 @@
 
      rm file_?.txt
 
+     ls -l *.xml
+
 ![2](./assets/1.png)
 
 ### Important tool for networking
@@ -91,3 +93,7 @@
 # Install multi-media code & VLC Player
 
      sudo apt install ubuntu-restricted-extras && sudo apt install vlc
+
+### unzip file
+
+     unzip /path/to/file.zip -d temp_for_zip_extract
