@@ -30,6 +30,8 @@
 
      rm file_?.txt
 
+![2](./assets/1.png)
+
 ### Important tool for networking
 
      sudo apt install net-tools
