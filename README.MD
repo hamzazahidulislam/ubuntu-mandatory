@@ -18,6 +18,18 @@
 
      ls file.?.csv
 
+     cat files/*.csv
+
+     cp files/* .
+
+     rm *.csv
+
+     rm document_*
+
+     touch file_10.txt
+
+     rm file_?.txt
+
 ### Important tool for networking
 
      sudo apt install net-tools
