@@ -197,6 +197,16 @@
 
 [clean up script](https://github.com/hamzazahidulislam/Ubuntu-Cleanup-Script/blob/master/clean.sh)
 
+### how to run this code
+
+- give executable permission linux file
+
+  `chmod +x ./clean.sh`
+
+  `chmod 700 ./clean.sh`
+
+  `sudo ./clean.sh`
+
 # Change grub time to 3 to 4 second or 0
 
 `sudo nano /etc/default/grub
