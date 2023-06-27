@@ -259,7 +259,7 @@
 
 `flatpak update org.telegram.desktop`
 
-- # please make sure you add a name from flathub.org if you mistake in the name then the package couldn't be find in the repository
+- # please make sure you add a name from flathub.org if you mistake in the name then the package couldn't be found in the repository
 
 # Common Error
 
