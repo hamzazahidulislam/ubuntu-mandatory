@@ -270,3 +270,7 @@
   `sudo snap refresh`
 
 # [Install Linux Wine HQ + CCleaner on Ubuntu 9.10 ](https://youtu.be/bnNL4eJeV_s)
+
+# [How can I hover over icons in Ubuntu Dock to see all windows of one application?](https://askubuntu.com/questions/1026442/how-can-i-hover-over-icons-in-ubuntu-dock-to-see-all-windows-of-one-application)
+
+- `gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'previews'`
