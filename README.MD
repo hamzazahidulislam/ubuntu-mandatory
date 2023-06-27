@@ -268,3 +268,5 @@
   `ps -e | grep snap-store #id blocking process`
   `kill #id`
   `sudo snap refresh`
+
+# [Install Linux Wine HQ + CCleaner on Ubuntu 9.10 ](https://youtu.be/bnNL4eJeV_s)
