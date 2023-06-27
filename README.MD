@@ -197,6 +197,8 @@
 
 [clean up script](https://github.com/hamzazahidulislam/Ubuntu-Cleanup-Script/blob/master/clean.sh)
 
+[clean up script](./scripts/clean.sh)
+
 ### how to run this code
 
 - give executable permission linux file
@@ -214,3 +216,49 @@
 
 `sudo update-grub
 `
+
+# Ubuntu update scrpt
+
+[script ](https://github.com/hamzazahidulislam/ubuntu-update.sh)
+
+# Update those application you download from snap or flatpak
+
+- first update and upgrade your system
+
+  `sudo apt install google-chrome-stable`
+
+- if your uninstable version then remove it by this command
+
+  `sudo apt install google-chrome-unstable`
+
+- if you want to join beta version instead use this
+
+  `sudo apt install google-chrome-beta`
+
+- install firefox
+
+  `sudo snap install firefox`
+
+- update firefox
+
+  ` sudo snap refresh firefox`
+
+- uninstall
+
+  `sudo snap remove firefox`
+
+# Flatpak application update
+
+`sudo flatpak update`
+
+- If, instead, you would like to update an individual application, you can supply the --app argument and specify which application you want to update. For example, this command would update the GIMP package downloaded from FlatHub:
+
+`sudo flatpak update --app org.gimp.GIMP`
+
+# Common Error
+
+- Can't refresh snap-store
+
+  `ps -e | grep snap-store #id blocking process`
+  `kill #id`
+  `sudo snap refresh`
