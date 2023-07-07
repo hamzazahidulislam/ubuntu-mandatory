@@ -278,3 +278,46 @@
 # [How can I specify the default save directory for gnome-screenshot?](https://askubuntu.com/questions/114429/how-can-i-specify-the-default-save-directory-for-gnome-screenshot)
 
 - ### ` gsettings set org.gnome.gnome-screenshot auto-save-directory "file:///home/$USER/Downloads/"`
+
+# Installing and using vnStat and vnStati for Monitoring Network Traffic in Ubuntu
+
+### monitor your network traffic
+
+### 2 Installing vnStat and vnStati
+
+     sudo apt-get install vnstat
+     sudo apt-get install vnstati
+
+! [source](https://www.howtoforge.com/tutorial/vnstat-network-monitoring-ubuntu/)
+
+### check your network interface
+
+## 3 vnStat setup and running
+
+- Once the installation is complete, vnStat has to be set up or configured as it does not start on its own. vnStat has to be told explicitly which interfaces have to be monitored. We then start the vnStat daemon called "vnstatd", which starts vnStat and monitors for as long as it is not stopped explicitly.
+
+- Before we start configuring vnstat, use ifconfig to get the name of the network interface that we want to monitor.
+
+`     ifconfig`
+
+https://www.cyberciti.biz/faq/ubuntu-install-vnstat-console-network-traffic-monitor/
+
+     sudo systemctl restart vnstat.service
+     sudo systemctl start vnstat.service
+     sudo systemctl reload vnstat.service
+
+### you customize your script as cron job
+
+     -  nano /etc/systemd/system/multi-user.target.wants/vnstat.service
+
+## check you your network traffic
+
+      vnstat -i wlo1
+
+## you see gui
+
+     vnstati -s -i wlo1 -o ~/summary.png
+
+## you can check the status of service that are runing
+
+     sudo systemctl status vnstat.service
