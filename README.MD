@@ -321,3 +321,6 @@ https://www.cyberciti.biz/faq/ubuntu-install-vnstat-console-network-traffic-moni
 ## you can check the status of service that are runing
 
      sudo systemctl status vnstat.service
+
+## If you want to setup hibernate for ubuntu
+[Watch this video on youtube](https://youtu.be/wngBplRkm5o?si=Q_dVZfCrnvHU0bmh)
