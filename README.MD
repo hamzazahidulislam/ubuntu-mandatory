@@ -328,3 +328,5 @@ https://www.cyberciti.biz/faq/ubuntu-install-vnstat-console-network-traffic-moni
 [Watch this video on youtube](https://youtu.be/wngBplRkm5o?si=Q_dVZfCrnvHU0bmh)
 
 ## "wind+a" you get multiple active window in your ubuntu
+
+## Screenshot shortcut hot keey "Fn+alt+PrtSc" please check maybe this is very system to system
