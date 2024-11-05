@@ -326,3 +326,5 @@ https://www.cyberciti.biz/faq/ubuntu-install-vnstat-console-network-traffic-moni
 
 ## If you want to setup hibernate for ubuntu
 [Watch this video on youtube](https://youtu.be/wngBplRkm5o?si=Q_dVZfCrnvHU0bmh)
+
+## "wind+a" you get multiple active window in your ubuntu
