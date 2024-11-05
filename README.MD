@@ -274,7 +274,9 @@
 # [How can I hover over icons in Ubuntu Dock to see all windows of one application?](https://askubuntu.com/questions/1026442/how-can-i-hover-over-icons-in-ubuntu-dock-to-see-all-windows-of-one-application)
 
 - `gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'previews'`
+# [How do I open all windows when clicking the icon in Ubuntu dock?](https://askubuntu.com/questions/1016792/how-do-i-open-all-windows-when-clicking-the-icon-in-ubuntu-dock)
 
+- `gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'`
 # [How can I specify the default save directory for gnome-screenshot?](https://askubuntu.com/questions/114429/how-can-i-specify-the-default-save-directory-for-gnome-screenshot)
 
 - ### ` gsettings set org.gnome.gnome-screenshot auto-save-directory "file:///home/$USER/Downloads/"`
