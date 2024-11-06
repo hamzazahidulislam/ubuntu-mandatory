@@ -330,3 +330,9 @@ https://www.cyberciti.biz/faq/ubuntu-install-vnstat-console-network-traffic-moni
 ## "wind+a" you get multiple active window in your ubuntu
 
 ## Screenshot shortcut hot keey "Fn+alt+PrtSc" please check maybe this is very system to system
+
+## If you want to shae your local file in your local network using samba
+
+     sudo apt-get install samba samba-common-bin
+     sudo smbpasswd -a $USER
+     sudo nano /etc/samba/smb.conf
