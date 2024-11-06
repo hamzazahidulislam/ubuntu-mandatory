@@ -353,3 +353,5 @@ https://www.cyberciti.biz/faq/ubuntu-install-vnstat-console-network-traffic-moni
      sudo apt-get install alsa-tools-gui
 
 ## For Ubuntu reference [How to switch between headphones and speakers without unplugging headphones](https://askubuntu.com/questions/712517/how-to-switch-between-headphones-and-speakers-without-unplugging-headphones)
+
+## shortcut for video editing tool
