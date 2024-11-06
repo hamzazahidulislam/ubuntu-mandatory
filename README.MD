@@ -347,3 +347,9 @@ https://www.cyberciti.biz/faq/ubuntu-install-vnstat-console-network-traffic-moni
 ## [How install screenrecorder on ubuntu](https://www.geeksforgeeks.org/how-to-install-simplescreenrecorder-ubuntu/)
 
 ## If you face any error when use simplescreenrecorder then Watch this video on youtube [Click me](https://www.youtube.com/watch?v=TlxUvs2rv80)
+
+## If you have to switch your speker use this tool
+
+     sudo add-apt-repository ppa:yktooo/ppa
+     sudo apt-get update
+     sudo apt-get install indicator-sound-switcher
