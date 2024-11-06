@@ -1,3 +1,5 @@
+<!-- @format -->
+
 # Ubuntu Installation and Disk Partition
 
 ### partition image
@@ -274,9 +276,11 @@
 # [How can I hover over icons in Ubuntu Dock to see all windows of one application?](https://askubuntu.com/questions/1026442/how-can-i-hover-over-icons-in-ubuntu-dock-to-see-all-windows-of-one-application)
 
 - `gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'previews'`
+
 # [How do I open all windows when clicking the icon in Ubuntu dock?](https://askubuntu.com/questions/1016792/how-do-i-open-all-windows-when-clicking-the-icon-in-ubuntu-dock)
 
 - `gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'`
+
 # [How can I specify the default save directory for gnome-screenshot?](https://askubuntu.com/questions/114429/how-can-i-specify-the-default-save-directory-for-gnome-screenshot)
 
 - ### ` gsettings set org.gnome.gnome-screenshot auto-save-directory "file:///home/$USER/Downloads/"`
@@ -325,6 +329,7 @@ https://www.cyberciti.biz/faq/ubuntu-install-vnstat-console-network-traffic-moni
      sudo systemctl status vnstat.service
 
 ## If you want to setup hibernate for ubuntu
+
 [Watch this video on youtube](https://youtu.be/wngBplRkm5o?si=Q_dVZfCrnvHU0bmh)
 
 ## "wind+a" you get multiple active window in your ubuntu
@@ -338,3 +343,5 @@ https://www.cyberciti.biz/faq/ubuntu-install-vnstat-console-network-traffic-moni
      sudo nano /etc/samba/smb.conf
 
 ## [Please follow this ubuntu doc ](https://ubuntu.com/tutorials/install-and-configure-samba#3-setting-up-samba)
+
+## [How install screenrecorder on ubuntu](https://www.geeksforgeeks.org/how-to-install-simplescreenrecorder-ubuntu/)
