@@ -344,6 +344,11 @@ https://www.cyberciti.biz/faq/ubuntu-install-vnstat-console-network-traffic-moni
 
 ## [Please follow this ubuntu doc ](https://ubuntu.com/tutorials/install-and-configure-samba#3-setting-up-samba)
 
+## If you update samba config fil then restart samba service
+
+     sudo systemctl restart samba
+     sudo systemctl daemon-reload
+
 ## [How install screenrecorder on ubuntu](https://www.geeksforgeeks.org/how-to-install-simplescreenrecorder-ubuntu/)
 
 ## If you face any error when use simplescreenrecorder then Watch this video on youtube [Click me](https://www.youtube.com/watch?v=TlxUvs2rv80)
