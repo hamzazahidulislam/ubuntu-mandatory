@@ -336,3 +336,5 @@ https://www.cyberciti.biz/faq/ubuntu-install-vnstat-console-network-traffic-moni
      sudo apt-get install samba samba-common-bin
      sudo smbpasswd -a $USER
      sudo nano /etc/samba/smb.conf
+
+## [Please follow this ubuntu doc ](https://ubuntu.com/tutorials/install-and-configure-samba#3-setting-up-samba)
