@@ -360,3 +360,5 @@ https://www.cyberciti.biz/faq/ubuntu-install-vnstat-console-network-traffic-moni
 ## For Ubuntu reference [How to switch between headphones and speakers without unplugging headphones](https://askubuntu.com/questions/712517/how-to-switch-between-headphones-and-speakers-without-unplugging-headphones)
 
 ## shortcut for video editing tool
+
+## desktop shortcut in ubuntu [How to make a desktop shortcut on Ubuntu 20.04?](https://askubuntu.com/questions/1232612/how-to-make-a-desktop-shortcut-on-ubuntu-20-04)
