@@ -364,3 +364,5 @@ https://www.cyberciti.biz/faq/ubuntu-install-vnstat-console-network-traffic-moni
 ## desktop shortcut in ubuntu [How to make a desktop shortcut on Ubuntu 20.04?](https://askubuntu.com/questions/1232612/how-to-make-a-desktop-shortcut-on-ubuntu-20-04)
 
 ## [Is there a shortcut key for file browser? (Equiv. of Win+E)](https://superuser.com/questions/139959/is-there-a-shortcut-key-for-file-browser-equiv-of-wine)
+
+## set manual schedule for night light from 00:00 to 00:00
