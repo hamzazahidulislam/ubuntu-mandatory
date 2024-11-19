@@ -366,3 +366,36 @@ https://www.cyberciti.biz/faq/ubuntu-install-vnstat-console-network-traffic-moni
 ## [Is there a shortcut key for file browser? (Equiv. of Win+E)](https://superuser.com/questions/139959/is-there-a-shortcut-key-for-file-browser-equiv-of-wine)
 
 ## set manual schedule for night light from 00:00 to 00:00
+
+# Linux important commands
+
+## delete branch locally
+
+`git branch -d localBranchName`
+
+## delete local branch that is unmerged
+
+`git branch -D localBranchName`
+
+## delete branch remotely
+
+`git push origin --delete remoteBranchName`
+
+`git push --delete remoteName branchName`
+
+`git branch --show-current`
+
+` git checkout -b <new branch>`
+
+## Remove all files except one directory linux
+
+`rm -rf !(".git" | "abc.log" ) `
+
+## linux copy file to another directory except one file
+
+`cp -v "documents/* !(*important_doc.txt*)" "backup"
+`
+
+## cp -r without hidden files [ref](https://stackoverflow.com/questions/11557114/cp-r-without-hidden-files)
+
+`rsync -av --exclude=".*" src dest`
