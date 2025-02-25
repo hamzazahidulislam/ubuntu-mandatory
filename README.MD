@@ -396,6 +396,12 @@ https://www.cyberciti.biz/faq/ubuntu-install-vnstat-console-network-traffic-moni
 `cp -v "documents/* !(*important_doc.txt*)" "backup"
 `
 
+## Linux desktop file shortcut
+
+- $PWD means which directory you want to shortcut in your desktop
+
+` ln -s $PWD ~/Desktop/`
+
 ## cp -r without hidden files [ref](https://stackoverflow.com/questions/11557114/cp-r-without-hidden-files)
 
 `rsync -av --exclude=".*" src dest`
