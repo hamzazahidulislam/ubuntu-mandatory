@@ -404,4 +404,10 @@ https://www.cyberciti.biz/faq/ubuntu-install-vnstat-console-network-traffic-moni
 
 ## cp -r without hidden files [ref](https://stackoverflow.com/questions/11557114/cp-r-without-hidden-files)
 
+## Stop or kill running service
+
+- # example i kill gnome-clocks
+
+`sudo pkill gnome-clocks`
+
 `rsync -av --exclude=".*" src dest`
