@@ -411,3 +411,40 @@ https://www.cyberciti.biz/faq/ubuntu-install-vnstat-console-network-traffic-moni
 `sudo pkill gnome-clocks`
 
 `rsync -av --exclude=".*" src dest`
+
+## How to zip file in linux command
+
+`zip --password 123 data.zip myfile`
+
+- Recursive
+
+  `zip --password 123 data.zip myfile -r ./`
+
+## How to install LaTex
+
+- ## [First install distribution](https://miktex.org/download)
+
+- ## [Next install texstudio](https://www.texstudio.org/#download)
+
+- ## Furthermore, an app-image is available which can be run on any platform: _appImage_ (). Just make the file executable and run it.
+
+`sudo apt-get install gedit`
+
+`cd ~/.local/share/applications/`
+
+`gedit texstudio.desktop`
+
+`[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Name=TeXstudio
+Icon[en_US]=/home/user/Desktop/texstudio/texstudio128x128.png
+Exec=/home/user/Desktop/texstudio/texstudio-4.8.7-x86_64.AppImage`
+
+`ls -a | grep texstudio.desktop`
+
+`sudo chmod +x texstudio.desktop `
+
+`sudo update-desktop-database ~/.local/share/applications/
+`
