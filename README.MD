@@ -448,3 +448,9 @@ Exec=/home/user/Desktop/texstudio/texstudio-4.8.7-x86_64.AppImage`
 
 `sudo update-desktop-database ~/.local/share/applications/
 `
+
+- ## How to extract a multi-part rar file on the shell on Ubuntu?
+
+`sudo apt-get install unrar`
+
+`unrar x "*.*.rar"`
