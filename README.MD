@@ -454,3 +454,15 @@ Exec=/home/user/Desktop/texstudio/texstudio-4.8.7-x86_64.AppImage`
 `sudo apt-get install unrar`
 
 `unrar x "*.*.rar"`
+
+## How to uninstall any debian software in Ubuntu
+
+- ## First check in your DPKG _(dpkg stands for Debian Package._) list
+
+- ## For example i used google chrome
+
+`dpkg --list | grep google`
+
+- ## Remove the software
+
+`sudo apt purge google-chrome-stable`
