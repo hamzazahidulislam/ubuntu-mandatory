@@ -466,3 +466,7 @@ Exec=/home/user/Desktop/texstudio/texstudio-4.8.7-x86_64.AppImage`
 - ## Remove the software
 
 `sudo apt purge google-chrome-stable`
+
+## how to fix keyboard keys problem in ubuntu chrome browser
+
+- ## try restarting Chrome
