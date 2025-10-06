@@ -470,3 +470,16 @@ Exec=/home/user/Desktop/texstudio/texstudio-4.8.7-x86_64.AppImage`
 ## how to fix keyboard keys problem in ubuntu chrome browser
 
 - ## try restarting Chrome
+
+## firewall
+
+- sudo ufw enable
+- sudo ufw disable
+- sudo ufw status verbose
+- sudo ufw status numbered
+- sudo ufw status
+- sudo ufw allow <port_number>
+- sudo ufw allow <port_number>/tcp
+- sudo ufw allow <port_number>/udp
+- sudo ufw reload
+- sudo ufw delete <numbered>
