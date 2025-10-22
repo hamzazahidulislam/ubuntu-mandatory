@@ -483,3 +483,15 @@ Exec=/home/user/Desktop/texstudio/texstudio-4.8.7-x86_64.AppImage`
 - sudo ufw allow <port_number>/udp
 - sudo ufw reload
 - sudo ufw delete <numbered>
+
+- ## Install 7ZIP
+
+`  sudo apt install p7zip-full p7zip-rar`
+
+- ## unzip 7zip with password
+
+`7z x your_archive.7z -p'your_password'`
+
+- ## 7zip zip with password
+
+`    7z a -p -mhe=on archive.7z file_to_encrypt.txt`
