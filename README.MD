@@ -495,3 +495,7 @@ Exec=/home/user/Desktop/texstudio/texstudio-4.8.7-x86_64.AppImage`
 - ## 7zip zip with password
 
 `    7z a -p -mhe=on archive.7z file_to_encrypt.txt`
+
+- ## Clean terminal history
+
+` history -c`
