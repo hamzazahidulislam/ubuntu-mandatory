@@ -499,3 +499,9 @@ Exec=/home/user/Desktop/texstudio/texstudio-4.8.7-x86_64.AppImage`
 - ## Clean terminal history
 
 ` history -c`
+
+- ## Install unrar for extract x.rar file
+
+`  sudo apt install unrar`
+
+`  unrar x filename.rar`
