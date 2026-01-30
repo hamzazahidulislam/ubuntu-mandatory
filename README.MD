@@ -517,3 +517,5 @@ Exec=/home/user/Desktop/texstudio/texstudio-4.8.7-x86_64.AppImage`
 `sudo systemctl enable --now fail2ban`
 
 ---
+
+## Disable password authentication in the ssh service
