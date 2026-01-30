@@ -519,3 +519,11 @@ Exec=/home/user/Desktop/texstudio/texstudio-4.8.7-x86_64.AppImage`
 ---
 
 ## Disable password authentication in the ssh service
+
+---
+
+## Tmux is an open-source terminal multiplexer for Unix-like systems that allows users to manage multiple terminal sessions, windows, and panes within a single window. It enables persistent, detached sessions that continue running in the background, which is crucial for remote work via SSH. Key features include splitting panes, window management, and session detachment/reattachment, often using the Ctrl+b prefix.
+
+---
+
+`sudo apt install tmux`
