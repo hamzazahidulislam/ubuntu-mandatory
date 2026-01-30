@@ -505,3 +505,15 @@ Exec=/home/user/Desktop/texstudio/texstudio-4.8.7-x86_64.AppImage`
 `  sudo apt install unrar`
 
 `  unrar x filename.rar`
+
+## Fail2Ban is an open-source intrusion prevention framework that protects Linux servers from brute-force attacks and unauthorized access by monitoring system logs (e.g., SSH, Apache) for malicious patterns. It automatically updates firewall rules (iptables/nftables) to ban suspicious IP addresses for a specified duration. It is highly configurable, allowing customized rules for different services and email alerts for detected attacks.
+
+`sudo apt install fail2ban`
+
+---
+
+## `sudo systemctl status fail2ban`
+
+`sudo systemctl enable --now fail2ban`
+
+---
